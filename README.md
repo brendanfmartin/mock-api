@@ -9,8 +9,8 @@ Create your own mock api. You can model it after any api you like. Simply create
 
 ```
 nvm use
-npm install nodemon -g
-npm install
+yarn install nodemon -g
+yarn install
 npm run serve
 ```
 
