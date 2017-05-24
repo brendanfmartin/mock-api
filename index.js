@@ -26,11 +26,11 @@ app.use(function (req, res, next) {
 app.use(cors());
 
 // Controllers ================================================================
-const sampleController = require('./controllers/sample');
+const forecastController = require('./controllers/forecast');
 
 // Routes =====================================================================
-app.get(apiURL + '', sampleController.getSample);
-app.get(apiURL + 'sample', sampleController.getSample);
+app.get(apiURL + 'forecast/:apikey/:latlong', forecastController.getForecast);
+app.get(apiURL + 'forecast/:apikey/:latlong/:time', forecastController.getTimeMachine);
 
 // listen =====================================================================
 app.listen(port);
