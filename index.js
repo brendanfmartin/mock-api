@@ -26,11 +26,11 @@ app.use(function (req, res, next) {
 app.use(cors());
 
 // Controllers ================================================================
-const sampleController = require('./controllers/sample');
+const sampleController = require('./controllers/geolocation');
 
 // Routes =====================================================================
-app.get(apiURL + '', sampleController.getSample);
-app.get(apiURL + 'sample', sampleController.getSample);
+app.get(apiURL + '', sampleController.getGeolocation);
+app.get(apiURL + 'geolocation', sampleController.getGeolocation);
 
 // listen =====================================================================
 app.listen(port);
