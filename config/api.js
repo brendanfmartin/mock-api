@@ -3,3 +3,9 @@ exports.sample = {
     'key': 'value'
   }
 };
+
+exports.sampleTwo = {
+  'sample': {
+    'key': 'other'
+  }
+};
