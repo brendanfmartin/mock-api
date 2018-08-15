@@ -5,7 +5,7 @@ describe('sample', function () {
   it('outputs something', function () {
     expect(apiConfig.sample).to.deep.equal({
       'sample': {
-        'key': 'value'
+        'key': false
       }
     });
   });
