@@ -9,3 +9,7 @@ exports.sampleTwo = {
     'key': 'other'
   }
 };
+
+exports.error = {
+
+};
