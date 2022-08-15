@@ -9,7 +9,6 @@ Create your own mock api. You can model it after any api you like. Simply create
 
 ```
 nvm use
-npm i -g nodemon
 npm install
 npm start
 ```
